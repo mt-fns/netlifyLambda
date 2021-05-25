@@ -1,0 +1,26 @@
+{
+  "name": "DailyDoge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webscrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify-dev",
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "chrome-aws-lambda": "^9.1.0",
+    "git": "^0.1.5",
+    "netlify-lambda": "^2.0.7",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^9.1.1",
+    "puppeteer-core": "^9.1.1",
+    "request": "^2.88.2"
+  }
+}
